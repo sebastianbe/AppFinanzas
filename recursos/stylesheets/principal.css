@@ -1,0 +1,249 @@
+* { //valores por defecto 
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   display: -moz-box;      /* OLD: Firefox (buggy) */
+   display: -ms-flexbox;   /* MID: IE 10 */
+   display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+   display: flex;          /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+
+   -webkit-box-align: center; -moz-box-align: center; /* OLD… */
+   -ms-flex-align: center; /* You know the drill now… */
+   -webkit-align-items: center;
+   align-items: center;
+
+   -webkit-box-pack: center; -moz-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+
+   margin: 0;
+   height: 100%;
+   width: 100% /* needed for Firefox */
+   
+}
+
+body {
+	background-image: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	
+}
+
+.selector {
+	/*border: 1px solid #000;*/
+	margin-left: 1%;
+	margin-bottom: 1%;
+
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   display: -moz-box;      /* OLD: Firefox (buggy) */
+   display: -ms-flexbox;   /* MID: IE 10 */
+   display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+   display: flex;          /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+
+   -webkit-box-align: center; -moz-box-align: center; /* OLD… */
+   -ms-flex-align: center; /* You know the drill now… */
+   -webkit-align-items: center;
+   align-items: center;
+
+   -webkit-box-pack: center; -moz-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   
+   color: white;
+   font-weight: bold;
+}
+
+#principal {
+	width: 70%;
+	height: 70%;
+}
+
+#entrada {
+	width: 31%;
+	height: 30%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 2.5%;
+	background-color: #00ff00;
+	
+   background: -webkit-radial-gradient(circle, #00ff00, #228B22);
+	background: -moz-radial-gradient(circle, #00ff00, #228B22);
+	background: -ms-radial-gradient(circle, #00ff00, #228B22);
+	background: -o-radial-gradient(circle, #00ff00, #228B22);
+   background: radial-gradient(circle, #00ff00, #228B22);
+   
+}
+
+#salida {
+	width: 31%;
+	height: 30%;
+	float: left;
+	margin-top: 1%;
+	
+	background-color: #ff0000;
+	
+   background: -webkit-radial-gradient(circle, #ff0000, #B40404);
+	background: -moz-radial-gradient(circle, #ff0000, #B40404);
+	background: -ms-radial-gradient(circle, #ff0000, #B40404);
+	background: -o-radial-gradient(circle, #ff0000, #B40404);
+   background: radial-gradient(circle, #ff0000, #B40404);
+}
+
+#usuario {
+	width: 15%;
+	height: 30%;
+	float: left;
+	margin-top: 1%;
+	
+	background-color: #DB7093;
+	
+   background: -webkit-radial-gradient(circle, #DB7093, #C71585);
+	background: -moz-radial-gradient(circle, #DB7093, #C71585);
+	background: -ms-radial-gradient(circle, #DB7093, #C71585);
+	background: -o-radial-gradient(circle, #DB7093, #C71585);
+   background: radial-gradient(circle, #DB7093, #C71585);
+}
+
+#cerrarSesion {
+	width: 15%;
+	height: 30%;
+	float: left;
+
+	margin-top: 1%;
+	
+	background-color: #ff0000;
+	
+   background: -webkit-radial-gradient(circle, #ff0000, #B40404);
+	background: -moz-radial-gradient(circle, #ff0000, #B40404);
+	background: -ms-radial-gradient(circle, #ff0000, #B40404);
+	background: -o-radial-gradient(circle, #ff0000, #B40404);
+   background: radial-gradient(circle, #ff0000, #B40404);
+}
+
+#ahorros {
+	width: 31%;
+	height: 30%;
+	clear: both;
+	float: left;
+	margin-left: 2.5%;
+	
+	background-color: #8A2BE2;
+	
+   background: -webkit-radial-gradient(circle, #8A2BE2, #800080);
+	background: -moz-radial-gradient(circle, #8A2BE2, #800080);
+	background: -ms-radial-gradient(circle, #8A2BE2, #800080);
+	background: -o-radial-gradient(circle, #8A2BE2, #800080);
+   background: radial-gradient(circle, #8A2BE2, #800080);
+}
+
+#resumen {
+	width: 31%;
+	height: 30%;
+	float: left;
+
+	background-color: #FFD700;
+	
+   background: -webkit-radial-gradient(circle, #FFD700, #FF8C00);
+	background: -moz-radial-gradient(circle, #FFD700, #FF8C00);
+	background: -ms-radial-gradient(circle, #FFD700, #FF8C00);
+	background: -o-radial-gradient(circle, #FFD700, #FF8C00);
+   background: radial-gradient(circle, #FFD700, #FF8C00);
+}
+
+#configuracion {
+	width: 15%;
+	height: 30%;
+	float: left;
+	
+	background-color: #FF7F50;
+	
+   background: -webkit-radial-gradient(circle, #FF7F50, #FF4500);
+	background: -moz-radial-gradient(circle, #FF7F50, #FF4500);
+	background: -ms-radial-gradient(circle, #FF7F50, #FF4500);
+	background: -o-radial-gradient(circle, #FF7F50, #FF4500);
+   background: radial-gradient(circle, #FF7F50, #FF4500);
+}
+
+#ayuda {
+	width: 15%;
+	height: 30%;
+	float: left;
+
+	background-color: #00ff00;
+	
+   background: -webkit-radial-gradient(circle, #00ff00, #228B22);
+	background: -moz-radial-gradient(circle, #00ff00, #228B22);
+	background: -ms-radial-gradient(circle, #00ff00, #228B22);
+	background: -o-radial-gradient(circle, #00ff00, #228B22);
+   background: radial-gradient(circle, #00ff00, #228B22);
+}
+
+#estadisticas {
+	width: 15%;
+	height: 30%;
+	clear: both;
+	float: left;
+	margin-left: 2.5%;
+	
+	background-color: #00FFFF;
+	
+   background: -webkit-radial-gradient(circle, #00FFFF, #1E90FF);
+	background: -moz-radial-gradient(circle, #00FFFF, #1E90FF);
+	background: -ms-radial-gradient(circle, #00FFFF, #1E90FF);
+	background: -o-radial-gradient(circle, #00FFFF, #1E90FF);
+   background: radial-gradient(circle, #00FFFF, #1E90FF);
+}
+
+#vacio1 {
+	width: 15%;
+	height: 30%;
+	float: left;
+	
+	background-color: #FF7F50;
+	
+   background: -webkit-radial-gradient(circle, #FF7F50, #FF4500);
+	background: -moz-radial-gradient(circle, #FF7F50, #FF4500);
+	background: -ms-radial-gradient(circle, #FF7F50, #FF4500);
+	background: -o-radial-gradient(circle, #FF7F50, #FF4500);
+   background: radial-gradient(circle, #FF7F50, #FF4500);
+}
+
+#cotizacion {
+	width: 31%;
+	height: 30%;
+	float: left;
+	
+	background-color: #0000FF;
+	
+   background: -webkit-radial-gradient(circle, #0000FF, #000080);
+	background: -moz-radial-gradient(circle, #0000FF, #000080);
+	background: -ms-radial-gradient(circle, #0000FF, #000080);
+	background: -o-radial-gradient(circle, #0000FF, #000080);
+   background: radial-gradient(circle, #0000FF, #000080);
+}
+
+#vacio2 {
+	width: 31%;
+	height: 30%;
+	float: left;
+	margin-right: 1%;
+	
+	background-color: #8A2BE2;
+	
+   background: -webkit-radial-gradient(circle, #8A2BE2, #800080);
+	background: -moz-radial-gradient(circle, #8A2BE2, #800080);
+	background: -ms-radial-gradient(circle, #8A2BE2, #800080);
+	background: -o-radial-gradient(circle, #8A2BE2, #800080);
+   background: radial-gradient(circle, #8A2BE2, #800080);
+    
+}
+
+.selector:hover {
+	opacity: 0.5;
+}
