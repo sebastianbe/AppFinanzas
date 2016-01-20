@@ -25,13 +25,13 @@
 			<div id="contenedorLabelUsuario" class="label">
 				<label>Usuario</label>
 			</div>
-			<div class="camposFormulario form-group">
+			<div class="form-group camposFormulario">
          	<input type="text" id="usuario" name="usuario">
          </div>
          <div class="label">
             <label>Contraseña</label>
          </div>
-         <div class="camposFormulario form-group">
+         <div class="form-group camposFormulario">
             <input id="contrasenia" name="contrasenia" type="password">
          </div>
 			<div id="contenedorBoton" class="camposFormulario">
@@ -81,7 +81,7 @@
                dataType: 'html',
                success: function(data){
                	if (data == "OK") {
-               		window.location.replace("../index.php");
+               		window.location.href("../index.php");
                	}
                	else {
                		alert("error"+data);
